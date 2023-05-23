@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/css/bootstrap.css">
+
+    <link rel="stylesheet" href="weather.css">
+
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main d-flex align-items-center justify-content-center
+    mt-5 ">
+    <div class="card app-main">
+
+        <marquee class="mb-4 " behavior="" direction="left">Welcome to wether app 'please enter the city'</marquee>
+
+
+        <div class="searchInputBox">
+            <input type="text " id="input-box" class="input-box mb-4 text-center" placeholder="Enter city name..." autocomplete="off">
+        </div>
+
+        <div class="weather-body ">
+            <div class="location-details">
+                <div class="city mb-3" id="city">Rajkot, IN</div>
+                <div class="date mb-3" id="date">22 May (Monday), 2023</div>
+            </div>
+
+            <div class="weather-status">
+                <div class="temp mb-3" id="temp">34&deg;C</div>
+                <div class="min-max mb-3" id="min-max">32&deg;C (min) - 34&deg;C (max)</div>
+                <div class="weather mb-3" id="weather">Clear</div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+    <script src="weather.js"></script>
+</body>
+</html>
